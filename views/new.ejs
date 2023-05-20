@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>New To-Do Item</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+     <h1>New To-Do Item</h1>
+     <form method="POST" action="/todos">
+          <div class="form-group">
+               <label>Title</label><br>
+               <input type="text" name="title" class="form-control"><br>
+           </div>
+           <div class="form-group">
+               <label>Description</label><br>
+               <textarea name="description" class="form-control"></textarea><br>
+               <button type="submit" class="btn btn-primary">Create</button>
+          </div>       
+     </form>
+</body>
+
+</html>
